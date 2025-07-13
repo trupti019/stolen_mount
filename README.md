@@ -5,7 +5,6 @@ TryHackMe - Stolen Mount Lab Writeup
 
 This TryHackMe room focused on analyzing a packet capture (PCAP) file to figure out what an attacker accessed and stole from an NFS server. The task was to investigate the network traffic, extract any transferred files, and uncover the hidden flag.
 
-⸻
 
 How I Solved It
 
@@ -48,7 +47,6 @@ Inside the unlocked ZIP was a file called secrets.txt with a QR code. I scanned 
 
 The QR code gave me the final flag for the challenge.
 
-⸻
 
 # Key Things I Learned
 	•	How to identify and understand NFS traffic in a PCAP
@@ -57,7 +55,6 @@ The QR code gave me the final flag for the challenge.
 	•	How to handle password-protected archives and use hashes for cracking
 	•	How multiple steps like ZIP extraction and QR decoding can be chained in forensic investigations
 
-⸻
 
 # Tools I Used
 	•	Wireshark
@@ -66,7 +63,7 @@ The QR code gave me the final flag for the challenge.
 	•	MD5 hash lookup site
 	•	QR code scanner
 
-⸻
+
 
 # Final Thoughts
 
