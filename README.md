@@ -1,5 +1,5 @@
-# stolen_mount
-TryHackMe - Stolen Mount Lab Writeup
+# TryHackMe - Stolen Mount Lab Writeup
+
 
 # What This Challenge Was About
 
