@@ -1,7 +1,7 @@
 # TryHackMe - Stolen Mount Lab Writeup
 
 
-# What This Challenge Was About
+## What This Challenge Was About
 
 This TryHackMe room focused on analyzing a packet capture (PCAP) file to figure out what an attacker accessed and stole from an NFS server. The task was to investigate the network traffic, extract any transferred files, and uncover the hidden flag.
 
