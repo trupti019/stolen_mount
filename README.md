@@ -27,17 +27,26 @@ I followed TCP streams to trace how the files were being accessed and pulled fro
 
 To make things easier, I ran strings on the PCAP file to extract readable text. This helped surface key info, including an MD5 hash that would be useful later.
 
+<img width="848" height="263" alt="image" src="https://github.com/user-attachments/assets/cd60aa63-4931-4feb-9410-8f04fbcb8887" />
+
 # Step 5: Pulled Files Using CyberChef
 
 After copying hex data from the relevant TCP streams, I dropped it into CyberChef. That helped me reconstruct two ZIP files that had been transferred through the network.
+<img width="1097" height="530" alt="image" src="https://github.com/user-attachments/assets/b9f0d411-4239-4f6f-a475-34b8257105e3" />
+
 
 # Step 6: One ZIP File Was Locked
 
 One of the extracted ZIPs was password-protected. I had the MD5 hash from earlier, so I searched for it using an online MD5 lookup.
 
+<img width="472" height="329" alt="image" src="https://github.com/user-attachments/assets/7e11e50e-0d32-4366-a564-296747be1fe2" />
+
+
 # Step 7: Cracked the Password
 
 The hash matched the password: avengers. I used that to unlock the archive.
+
+<img width="1127" height="257" alt="image" src="https://github.com/user-attachments/assets/2607d3a1-95a5-47d1-aad2-0112123674c6" />
 
 # Step 8: Found a QR Code Inside
 
@@ -46,6 +55,8 @@ Inside the unlocked ZIP was a file called secrets.txt with a QR code. I scanned 
 # Step 9: Got the Flag
 
 The QR code gave me the final flag for the challenge.
+<img width="653" height="479" alt="image" src="https://github.com/user-attachments/assets/e5c7f612-5a2d-4e48-be9c-795fa44d462a" />
+
 
 
 # Key Things I Learned
